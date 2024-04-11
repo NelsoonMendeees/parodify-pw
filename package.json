@@ -1,0 +1,24 @@
+{
+  "name": "parodify-pw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pw:ui": "npx playwright test --ui",
+    "pw:run": "npx playwright test",
+    "pw:headed": "npx playwright test --headed"
+  },
+  "keywords": [],
+  "prettier": {
+    "printWidth": 90,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.7"
+  }
+}
